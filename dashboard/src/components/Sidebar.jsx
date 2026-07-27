@@ -1,10 +1,11 @@
 import React from 'react';
 import {
-  LayoutDashboard, TrendingUp, DollarSign, Users, Package,
+  Database, LayoutDashboard, TrendingUp, DollarSign, Users, Package,
   Truck, Globe, Boxes, ShieldAlert, Cpu, Target
 } from 'lucide-react';
 
 const navItems = [
+  { id: 'overview', label: 'Data & Metadata Overview', icon: Database },
   { id: 'executive', label: 'Executive Summary', icon: LayoutDashboard },
   { id: 'sales', label: 'Sales Analytics', icon: TrendingUp },
   { id: 'profitability', label: 'Profitability Deep Dive', icon: DollarSign },

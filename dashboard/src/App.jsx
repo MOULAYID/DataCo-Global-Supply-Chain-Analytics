@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+import DataOverview from './pages/DataOverview';
 import ExecutiveSummary from './pages/ExecutiveSummary';
 import SalesAnalytics from './pages/SalesAnalytics';
 import ProfitabilityPage from './pages/ProfitabilityPage';
@@ -15,7 +16,7 @@ import KpiScorecard from './pages/KpiScorecard';
 import metricsData from './data/metrics';
 
 export default function App() {
-  const [activePage, setActivePage] = useState('executive');
+  const [activePage, setActivePage] = useState('overview');
   const [darkMode, setDarkMode] = useState(true);
   const [metrics, setMetrics] = useState(metricsData);
 
@@ -29,6 +30,7 @@ export default function App() {
 
   const renderContent = () => {
     switch (activePage) {
+      case 'overview': return <DataOverview metrics={metrics} />;
       case 'executive': return <ExecutiveSummary metrics={metrics} />;
       case 'sales': return <SalesAnalytics metrics={metrics} />;
       case 'profitability': return <ProfitabilityPage metrics={metrics} />;
@@ -40,7 +42,7 @@ export default function App() {
       case 'fraud': return <FraudAnalytics metrics={metrics} />;
       case 'forecasting': return <ForecastingPage metrics={metrics} />;
       case 'kpi': return <KpiScorecard metrics={metrics} />;
-      default: return <ExecutiveSummary metrics={metrics} />;
+      default: return <DataOverview metrics={metrics} />;
     }
   };
 
