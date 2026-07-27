@@ -3,10 +3,12 @@
 [![Spec-Driven Development](https://img.shields.io/badge/Methodology-Spec--Driven%20Development-blue.svg)](https://github.com/zekiriabd/SDD-Pro)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Vite React](https://img.shields.io/badge/Frontend-Vite%20%2B%20React-61DAFB.svg)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20v4-38BDF8.svg)](https://tailwindcss.com/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-emerald.svg)](https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/)
 [![Tests Passed](https://img.shields.io/badge/Tests-Passed%20(3/3)-emerald.svg)](#)
 
 A McKinsey/Deloitte/Amazon-grade senior analytics consulting engagement for DataCo Global. This project delivers an end-to-end data engineering pipeline, statistical testing engine, machine learning suite, publication-grade Jupyter notebook, and an interactive 11-page modern SaaS executive web dashboard.
+
+🌐 **Live Interactive SaaS Dashboard**: [https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/](https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/)
 
 ---
 
@@ -28,6 +30,7 @@ Built following the **Spec-Driven Development (SDD)** methodology (inspired by S
 
 ```
 DataCo Global Supply Chain analysis/
+├── .github/workflows/deploy-dashboard.yml # Auto GitHub Pages CI/CD Deployment
 ├── specs/                                # SDD Documentation Suite
 │   ├── project_specification.md         # Architecture & Tech Stack Scope
 │   ├── business_requirements.md          # Business Question Matrix & SLAs
@@ -51,23 +54,20 @@ DataCo Global Supply Chain analysis/
 
 ## 🚀 Quickstart Guide
 
-### 1. Execute Python Data & ML Pipeline
+### 1. View Live Online Dashboard
+Open the deployed dashboard: [https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/](https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/)
+
+### 2. Run Pipeline Locally
 ```bash
 # Run master orchestration pipeline (cleaning, feature engineering, stats, ML, JSON export)
 python run_pipeline.py
 ```
 
-### 2. Launch Interactive Executive SaaS Dashboard
+### 3. Launch Local Dashboard
 ```bash
 cd dashboard
 npm install
 npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your web browser.
-
-### 3. Run Automated Tests
-```bash
-python -m unittest tests/test_pipeline.py
 ```
 
 ---
@@ -96,8 +96,3 @@ The interactive dashboard (built with Vite + React + Tailwind CSS + Lucide Icons
 9. **Fraud & Risk Management**: Suspected fraud breakdown & risk vector scoring.
 10. **Forecasting & ML Suite**: 30-day forecast curves & feature importance charts.
 11. **KPI SLA Scorecard**: Benchmark target vs actual compliance indicators.
-
----
-
-## 📜 License & Portfolio Usage
-Created as a senior data analyst portfolio deliverable for DataCo Global.
