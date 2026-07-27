@@ -1,0 +1,604 @@
+{
+  "kpis": {
+    "total_revenue": 36784735.01337984,
+    "total_profit": 3966902.974050357,
+    "net_margin_pct": 0.1078410099354382,
+    "total_orders": 65752,
+    "late_delivery_rate": 0.5482913155955883,
+    "late_delivery_count": 98977,
+    "fraud_orders_count": 4062,
+    "fraud_rate": 0.02250178651554684,
+    "total_customers": 20652
+  },
+  "monthly_sales": {
+    "April": 3053996.480470997,
+    "August": 3187032.113009184,
+    "December": 2599159.8680828228,
+    "February": 2888087.645983805,
+    "January": 3459246.466002137,
+    "July": 3188170.171937122,
+    "June": 3059152.210147854,
+    "March": 3125111.592217587,
+    "May": 3185363.962771893,
+    "November": 2703624.765360355,
+    "October": 3171278.989860352,
+    "September": 3164510.7475357368
+  },
+  "top_categories_sales": {
+    "Fishing": 6929653.690575,
+    "Cleats": 4431942.78318506,
+    "Camping & Hiking": 4118425.571019,
+    "Cardio Equipment": 3694843.19662996,
+    "Women's Apparel": 3147800.0,
+    "Water Sports": 3113844.684858,
+    "Men's Footwear": 2891757.6623529997,
+    "Indoor/Outdoor Games": 2888993.9135055,
+    "Shop By Sport": 1309522.04145468,
+    "Computers": 663000.0
+  },
+  "top_categories_profit": {
+    "Fishing": 756220.767189502,
+    "Cleats": 494636.919790561,
+    "Camping & Hiking": 427455.568105731,
+    "Cardio Equipment": 383011.098484708,
+    "Women's Apparel": 350421.02956735,
+    "Water Sports": 325146.96003752,
+    "Indoor/Outdoor Games": 318451.430554194,
+    "Men's Footwear": 311902.820213578,
+    "Shop By Sport": 129813.96031482199,
+    "Computers": 69656.81017112
+  },
+  "loss_making_categories": {
+    "Strength Training": 332.31009052699983,
+    "CDs ": 383.849999637,
+    "As Seen on  TV!": 714.429979709,
+    "Books ": 883.010007794,
+    "Toys": 900.710000356
+  },
+  "top_countries_profit": {
+    "Estados Unidos": 540413.070421508,
+    "Francia": 327828.580099241,
+    "M\u00e9xico": 303278.370637129,
+    "Alemania": 194827.080380509,
+    "Brasil": 186713.640354883,
+    "Reino Unido": 180942.88042435,
+    "Australia": 170041.580431952,
+    "China": 122190.920524783,
+    "Italia": 121545.47008749,
+    "India": 99746.819971747
+  },
+  "loss_making_countries": {
+    "Guinea-Bissau": -1448.720007858,
+    "Taiw\u00e1n": -1374.5400175319999,
+    "Ruanda": -330.020065658,
+    "Bosnia y Herzegovina": -327.38003203799997,
+    "Mongolia": -286.229950793,
+    "Chad": -272.70999336,
+    "Rep\u00fablica de Gambia": -265.83000185,
+    "Guayana Francesa": -231.880001266,
+    "Belice": -228.35000607100005,
+    "S\u00e1hara Occidental": -17.520000219
+  },
+  "shipping_performance": [
+    {
+      "Shipping Mode": "First Class",
+      "total_orders": 10079,
+      "late_rate": 0.9532249946070325,
+      "avg_delay": 1.0,
+      "total_profit": 643121.920739061
+    },
+    {
+      "Shipping Mode": "Same Day",
+      "total_orders": 3571,
+      "late_rate": 0.4574304200472425,
+      "avg_delay": 0.4782787306151792,
+      "total_profit": 203018.430241898
+    },
+    {
+      "Shipping Mode": "Second Class",
+      "total_orders": 12778,
+      "late_rate": 0.766327805542935,
+      "avg_delay": 1.9908280327124035,
+      "total_profit": 750308.170265433
+    },
+    {
+      "Shipping Mode": "Standard Class",
+      "total_orders": 39324,
+      "late_rate": 0.38071683124211153,
+      "avg_delay": -0.004092731457420744,
+      "total_profit": 2370454.452803965
+    }
+  ],
+  "abc_breakdown": [
+    {
+      "abc_class": "A (Top 80% Rev)",
+      "count": 126519,
+      "sum": 28276258.34936482
+    },
+    {
+      "abc_class": "B (Next 15% Rev)",
+      "count": 36214,
+      "sum": 6653168.29852136
+    },
+    {
+      "abc_class": "C (Bottom 5% Rev)",
+      "count": 17786,
+      "sum": 1855308.365493666
+    }
+  ],
+  "statistical_tests": {
+    "normality_tests": {
+      "Sales": {
+        "dagostino_stat": 3911.18256434426,
+        "dagostino_p": 0.0,
+        "shapiro_stat": 0.7963131414544619,
+        "shapiro_p": 6.1970894631792005e-62,
+        "is_normal": false
+      },
+      "Order Profit Per Order": {
+        "dagostino_stat": 3841.724431685677,
+        "dagostino_p": 0.0,
+        "shapiro_stat": 0.7051527014754997,
+        "shapiro_p": 3.811324754565255e-69,
+        "is_normal": false
+      },
+      "shipping_delay": {
+        "dagostino_stat": 11.642667208462036,
+        "dagostino_p": 0.002963650171774401,
+        "shapiro_stat": 0.9321629115116489,
+        "shapiro_p": 6.6360228589977525e-43,
+        "is_normal": false
+      }
+    },
+    "ttest_late_vs_ontime_profit": {
+      "t_statistic": -1.5868926397312175,
+      "p_value": 0.11253876553164309,
+      "late_mean_profit": 21.621706878333054,
+      "ontime_mean_profit": 22.40380775984874,
+      "significant_difference": false
+    },
+    "anova_shipping_mode_profit": {
+      "f_statistic": 1.9791817108864231,
+      "p_value": 0.11469269802447132,
+      "significant_difference": false
+    },
+    "chi2_market_fraud": {
+      "chi2_stat": 8.950995124404889,
+      "p_value": 0.062336109666202545,
+      "degrees_of_freedom": 4,
+      "significant_association": false
+    },
+    "correlations": {
+      "pearson": {
+        "Sales": {
+          "Sales": 1.0,
+          "Order Profit Per Order": 0.13181558933672993,
+          "Order Item Product Price": 0.7899482013113718,
+          "Order Item Quantity": 0.10644204034079763,
+          "Order Item Discount": 0.6174376349284983,
+          "shipping_delay": -0.003695461689205415
+        },
+        "Order Profit Per Order": {
+          "Sales": 0.13181558933672993,
+          "Order Profit Per Order": 1.0,
+          "Order Item Product Price": 0.10345881599671551,
+          "Order Item Quantity": 0.015696218982199195,
+          "Order Item Discount": 0.0647559159405851,
+          "shipping_delay": -0.0053849318695713
+        },
+        "Order Item Product Price": {
+          "Sales": 0.7899482013113718,
+          "Order Profit Per Order": 0.10345881599671551,
+          "Order Item Product Price": 1.0,
+          "Order Item Quantity": -0.4762323105123504,
+          "Order Item Discount": 0.4881011652959607,
+          "shipping_delay": -0.003992161552018699
+        },
+        "Order Item Quantity": {
+          "Sales": 0.10644204034079763,
+          "Order Profit Per Order": 0.015696218982199195,
+          "Order Item Product Price": -0.4762323105123504,
+          "Order Item Quantity": 1.0,
+          "Order Item Discount": 0.06537934438726922,
+          "shipping_delay": 0.0018130015232621383
+        },
+        "Order Item Discount": {
+          "Sales": 0.6174376349284983,
+          "Order Profit Per Order": 0.0647559159405851,
+          "Order Item Product Price": 0.4881011652959607,
+          "Order Item Quantity": 0.06537934438726922,
+          "Order Item Discount": 1.0,
+          "shipping_delay": -0.00024095277042219317
+        },
+        "shipping_delay": {
+          "Sales": -0.003695461689205415,
+          "Order Profit Per Order": -0.0053849318695713,
+          "Order Item Product Price": -0.003992161552018699,
+          "Order Item Quantity": 0.0018130015232621383,
+          "Order Item Discount": -0.00024095277042219317,
+          "shipping_delay": 1.0
+        }
+      },
+      "spearman": {
+        "Sales": {
+          "Sales": 1.0,
+          "Order Profit Per Order": 0.4363030769771301,
+          "Order Item Product Price": 0.6667173462269544,
+          "Order Item Quantity": 0.08529099188212245,
+          "Order Item Discount": 0.534149508244998,
+          "shipping_delay": -0.0029605067305636824
+        },
+        "Order Profit Per Order": {
+          "Sales": 0.4363030769771301,
+          "Order Profit Per Order": 1.0,
+          "Order Item Product Price": 0.2871813677281166,
+          "Order Item Quantity": 0.061486403250532964,
+          "Order Item Discount": 0.19599273047112287,
+          "shipping_delay": -0.0033432029318082508
+        },
+        "Order Item Product Price": {
+          "Sales": 0.6667173462269544,
+          "Order Profit Per Order": 0.2871813677281166,
+          "Order Item Product Price": 1.0,
+          "Order Item Quantity": -0.6150604686784756,
+          "Order Item Discount": 0.3562676895030857,
+          "shipping_delay": -0.0028117143398976884
+        },
+        "Order Item Quantity": {
+          "Sales": 0.08529099188212245,
+          "Order Profit Per Order": 0.061486403250532964,
+          "Order Item Product Price": -0.6150604686784756,
+          "Order Item Quantity": 1.0,
+          "Order Item Discount": 0.0765684296207582,
+          "shipping_delay": 0.0009061133405713014
+        },
+        "Order Item Discount": {
+          "Sales": 0.534149508244998,
+          "Order Profit Per Order": 0.19599273047112287,
+          "Order Item Product Price": 0.3562676895030857,
+          "Order Item Quantity": 0.0765684296207582,
+          "Order Item Discount": 1.0,
+          "shipping_delay": -0.00041282013892783413
+        },
+        "shipping_delay": {
+          "Sales": -0.0029605067305636824,
+          "Order Profit Per Order": -0.0033432029318082508,
+          "Order Item Product Price": -0.0028117143398976884,
+          "Order Item Quantity": 0.0009061133405713014,
+          "Order Item Discount": -0.00041282013892783413,
+          "shipping_delay": 1.0
+        }
+      }
+    },
+    "ols_regression": {
+      "r_squared": 0.017850014078822696,
+      "adj_r_squared": 0.017822809667341954,
+      "f_statistic": 656.1440996994767,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "const": 0.4588613428114014,
+        "Sales": 0.11378947014196689,
+        "Order Item Product Price": 0.0035876843237445536,
+        "Order Item Discount": -0.12868471791914105,
+        "shipping_delay": -0.3395482329943478,
+        "Order Item Quantity": 0.3166262803527773
+      },
+      "p_values": {
+        "const": 0.5522550405635211,
+        "Sales": 3.1419937366998915e-61,
+        "Order Item Product Price": 0.6188681897493618,
+        "Order Item Discount": 1.3266704556522202e-19,
+        "shipping_delay": 0.037691585276444124,
+        "Order Item Quantity": 0.45899002839647923
+      },
+      "vif": [
+        {
+          "feature": "const",
+          "VIF": 10.04337563123568
+        },
+        {
+          "feature": "Sales",
+          "VIF": 13.996140004056784
+        },
+        {
+          "feature": "Order Item Product Price",
+          "VIF": 17.114524813559644
+        },
+        {
+          "feature": "Order Item Discount",
+          "VIF": 1.6161197610678635
+        },
+        {
+          "feature": "shipping_delay",
+          "VIF": 1.0000258524042087
+        },
+        {
+          "feature": "Order Item Quantity",
+          "VIF": 6.5085009006229475
+        }
+      ]
+    }
+  },
+  "ml_models": {
+    "late_delivery": {
+      "metrics": {
+        "accuracy": 0.7011965433192998,
+        "precision": 0.8419374430610386,
+        "recall": 0.5602141846837745,
+        "f1_score": 0.6727735986411065,
+        "roc_auc": 0.7606606905397032,
+        "confusion_matrix": [
+          [
+            14226,
+            2082
+          ],
+          [
+            8706,
+            11090
+          ]
+        ]
+      },
+      "feature_importances": [
+        {
+          "feature": "Days for shipment (scheduled)",
+          "importance": 0.36002758167391113
+        },
+        {
+          "feature": "Shipping Mode_Standard Class",
+          "importance": 0.35762686832875246
+        },
+        {
+          "feature": "Shipping Mode_Second Class",
+          "importance": 0.08337023049386567
+        },
+        {
+          "feature": "Shipping Mode_Same Day",
+          "importance": 0.054542289003665194
+        },
+        {
+          "feature": "Latitude",
+          "importance": 0.035939574917943154
+        },
+        {
+          "feature": "Longitude",
+          "importance": 0.03427942995920016
+        },
+        {
+          "feature": "Order Item Discount Rate",
+          "importance": 0.016364612985923243
+        },
+        {
+          "feature": "Sales",
+          "importance": 0.015963433945605274
+        },
+        {
+          "feature": "Order Item Product Price",
+          "importance": 0.013159358984262997
+        },
+        {
+          "feature": "Order Item Quantity",
+          "importance": 0.005980575219744178
+        },
+        {
+          "feature": "Customer Segment_Corporate",
+          "importance": 0.0037907624330717838
+        },
+        {
+          "feature": "Customer Segment_Home Office",
+          "importance": 0.00320478684530422
+        },
+        {
+          "feature": "Order Region_Western Europe",
+          "importance": 0.0008181274914682157
+        },
+        {
+          "feature": "Order Region_Southern Europe",
+          "importance": 0.000814099266708444
+        },
+        {
+          "feature": "Order Region_Oceania",
+          "importance": 0.0007876951270418094
+        }
+      ]
+    },
+    "profitability": {
+      "metrics": {
+        "rmse": 101.60080203411171,
+        "mae": 54.498013063376995,
+        "r2_score": -0.004190587571781146
+      },
+      "feature_importances": [
+        {
+          "feature": "shipping_delay",
+          "importance": 0.18123457540502425
+        },
+        {
+          "feature": "Order Item Discount",
+          "importance": 0.16666434010399606
+        },
+        {
+          "feature": "Sales",
+          "importance": 0.1223964355098559
+        },
+        {
+          "feature": "Order Item Discount Rate",
+          "importance": 0.11308034583003782
+        },
+        {
+          "feature": "Customer Segment_Corporate",
+          "importance": 0.04676422863843773
+        },
+        {
+          "feature": "Customer Segment_Home Office",
+          "importance": 0.04041963105000297
+        },
+        {
+          "feature": "Shipping Mode_Second Class",
+          "importance": 0.03978051424523377
+        },
+        {
+          "feature": "Order Item Product Price",
+          "importance": 0.039473240542071866
+        },
+        {
+          "feature": "Order Region_Western Europe",
+          "importance": 0.03833725898945862
+        },
+        {
+          "feature": "Shipping Mode_Standard Class",
+          "importance": 0.032303905458891474
+        },
+        {
+          "feature": "Order Region_Northern Europe",
+          "importance": 0.0300006309649418
+        },
+        {
+          "feature": "Order Region_Oceania",
+          "importance": 0.027145292000820692
+        },
+        {
+          "feature": "Order Region_Southern Europe",
+          "importance": 0.020447436676239127
+        },
+        {
+          "feature": "Order Region_South Asia",
+          "importance": 0.014791197345944737
+        },
+        {
+          "feature": "Order Region_Southeast Asia",
+          "importance": 0.01405947525125007
+        }
+      ]
+    },
+    "fraud_detection": {
+      "metrics": {
+        "accuracy": 0.7484212275648128,
+        "precision": 0.0818926296633303,
+        "recall": 0.9975369458128078,
+        "f1_score": 0.1513594319349715,
+        "roc_auc": 0.9157486394996508,
+        "confusion_matrix": [
+          [
+            26211,
+            9081
+          ],
+          [
+            2,
+            810
+          ]
+        ]
+      },
+      "feature_importances": [
+        {
+          "feature": "Type_TRANSFER",
+          "importance": 0.569773614436119
+        },
+        {
+          "feature": "Type_DEBIT",
+          "importance": 0.22994565724507193
+        },
+        {
+          "feature": "Type_PAYMENT",
+          "importance": 0.1280514954644133
+        },
+        {
+          "feature": "Longitude",
+          "importance": 0.016335526693681275
+        },
+        {
+          "feature": "Latitude",
+          "importance": 0.01581656346492525
+        },
+        {
+          "feature": "Order Item Discount",
+          "importance": 0.0074224048257200605
+        },
+        {
+          "feature": "Sales",
+          "importance": 0.006122080399163011
+        },
+        {
+          "feature": "Order Item Product Price",
+          "importance": 0.005319650888799309
+        },
+        {
+          "feature": "Order Item Quantity",
+          "importance": 0.002179144636244667
+        },
+        {
+          "feature": "Customer Segment_Corporate",
+          "importance": 0.0021665914551182194
+        },
+        {
+          "feature": "Shipping Mode_Standard Class",
+          "importance": 0.0015796000460726403
+        },
+        {
+          "feature": "Customer Segment_Home Office",
+          "importance": 0.0015334098876946065
+        },
+        {
+          "feature": "Shipping Mode_Second Class",
+          "importance": 0.0014569134398987394
+        },
+        {
+          "feature": "Shipping Mode_Same Day",
+          "importance": 0.0013565679964825997
+        },
+        {
+          "feature": "Order Region_West of USA ",
+          "importance": 0.0012572345520759532
+        }
+      ]
+    },
+    "customer_rfm": {
+      "n_clusters": 4,
+      "silhouette_score": -0.019497283810172263,
+      "total_customers": 20652,
+      "cluster_profiles": [
+        {
+          "cluster": 1,
+          "customer_count": 7571,
+          "mean_recency": 254.6066569805838,
+          "mean_frequency": 5.912693171311584,
+          "mean_monetary": 3572.1567027231495,
+          "mean_clv": 1749.973451258986,
+          "segment_name": "Champions / VIPs"
+        },
+        {
+          "cluster": 3,
+          "customer_count": 4649,
+          "mean_recency": 452.3592170359217,
+          "mean_frequency": 2.697354269735427,
+          "mean_monetary": 1555.0566705788688,
+          "mean_clv": 518.2255315576122,
+          "segment_name": "Loyal Customers"
+        },
+        {
+          "cluster": 0,
+          "customer_count": 5947,
+          "mean_recency": 77.19270220279132,
+          "mean_frequency": 1.0025222801412477,
+          "mean_monetary": 395.98680548460567,
+          "mean_clv": 1468.3517742599936,
+          "segment_name": "At-Risk Buyers"
+        },
+        {
+          "cluster": 2,
+          "customer_count": 2485,
+          "mean_recency": 30.673239436619717,
+          "mean_frequency": 1.0,
+          "mean_monetary": 62.59340978863983,
+          "mean_clv": 562.8562396312645,
+          "segment_name": "Low-Value / Lost"
+        }
+      ]
+    },
+    "demand_forecast": {
+      "rmse": 20038.7398655899,
+      "mape": 7.244209912935957,
+      "history_days": 1127,
+      "forecast_days": 30
+    }
+  }
+}

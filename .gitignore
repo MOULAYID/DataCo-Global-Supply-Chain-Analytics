@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+logs/
+
+# Node / React Dashboard
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+.DS_Store
+
+# Data files (Optional: uncomment if raw CSV files exceed GitHub upload limits)
+# DataCoSupplyChainDataset.csv
+# tokenized_access_logs.csv
+
+# IDE & System
+.vscode/
+.idea/
+*.log
