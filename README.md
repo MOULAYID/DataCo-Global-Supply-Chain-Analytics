@@ -6,7 +6,7 @@
 [![Live Dashboard](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-emerald.svg)](https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/)
 [![Tests Passed](https://img.shields.io/badge/Tests-Passed%20(3/3)-emerald.svg)](#)
 
-A McKinsey/Deloitte/Amazon-grade senior analytics consulting engagement for DataCo Global. This project delivers an end-to-end data engineering pipeline, statistical testing engine, machine learning suite, publication-grade Jupyter notebook, and an interactive 11-page modern SaaS executive web dashboard.
+A portfolio project analysing the DataCo supply chain dataset to explore sales, profitability, delivery performance, and customer behaviour. It combines a Python data pipeline, statistical analysis, machine learning models, a Jupyter notebook, and an interactive 11-page web dashboard.
 
 🌐 **Live Interactive SaaS Dashboard**: [https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/](https://MOULAYID.github.io/DataCo-Global-Supply-Chain-Analytics/)
 
@@ -45,8 +45,8 @@ DataCo Global Supply Chain analysis/
 │   ├── stats/                            # Normality, ANOVA, Chi2, T-Tests, OLS Regression
 │   └── ml/                               # 5 ML Models (Late Delivery, Profit, Fraud, RFM, Forecast)
 ├── dashboard/                            # 11-Page Vite + React Modern SaaS Dashboard
-├── notebooks/                            # Publication-Quality Jupyter Notebook
-├── reports/                              # McKinsey/Deloitte Executive Presentations & RCA
+├── notebooks/                            # Exploratory Analysis Jupyter Notebook
+├── reports/                              # Executive Presentations & Root Cause Analysis
 └── tests/                                # Automated Pipeline Integration Test Suite
 ```
 
@@ -85,7 +85,7 @@ npm run dev
 ## 📊 11-Page Interactive SaaS Dashboard
 
 The interactive dashboard (built with Vite + React + Tailwind CSS + Lucide Icons + Recharts) includes dark/light theme switching and 11 dedicated pages:
-1. **Executive Summary**: Core KPI scorecard, revenue/profit timeline, McKinsey takeaway banner.
+1. **Executive Summary**: Core KPI scorecard, revenue/profit timeline, key findings banner.
 2. **Sales Analytics**: Category revenue breakdown & sales velocity.
 3. **Profitability Deep Dive**: Loss-making product detector & margin waterfall.
 4. **Customer Intelligence**: RFM cluster matrix & CLV leaderboards.
